@@ -626,7 +626,7 @@ def _mb_request(path, method='GET', auth_required=AUTH_NO,
     # Construct the full URL for the request, including hostname and
     # query string.
     url = compat.urlunparse((
-        'http',
+        'https',
         hostname,
         '/ws/2/%s' % path,
         '',
